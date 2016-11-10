@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<meta charset='UTF-8'>
+	<title>GunDB Application</title>
+	<style>
+		body {
+			font-family: sans-serif;
+			color: #303438;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+
+	<h1>Hello world gun app</h1>
+	<p>Open your web console</p>
+
+	<!-- Loads gun -->
+	<script src='http://localhost:8080/gun.js'></script>
+
+	<script>
+
+		// Sync this gun instance with the server.
+		var gun = Gun([
+			'http://localhost:8080/gun',
+		]);
+
+		// Reads key 'data'.
+		var data = gun.get('data');
+
+		// Writes a value to the key 'data'.
+		data.put({ message: 'Hello world!' });
+
+		// Listen for real-time change events.
+		data.on(function (value) {
+			console.log('Message:', value.message);
+		});
+	</script>
+</body>
+</html>

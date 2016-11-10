@@ -1,0 +1,27 @@
+{
+  "name": "gun-starter-app",
+  "version": "0.1.0",
+  "description": "Boilerplate gundb application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gundb/gun-starter-app.git"
+  },
+  "keywords": [
+    "gun",
+    "gundb",
+    "boilerplate"
+  ],
+  "license": "(Zlib OR MIT OR Apache-2.0)",
+  "bugs": {
+    "url": "https://github.com/gundb/gun-starter-app/issues"
+  },
+  "homepage": "https://github.com/gundb/gun-starter-app#readme",
+  "dependencies": {
+    "gun": "^0.3.999"
+  }
+}
