@@ -29,6 +29,8 @@
 		// Reads key 'data'.
 		var data = gun.get('data');
 
+		console.log('Gun reference exposed as %cwindow.data', 'color: red');
+
 		// Writes a value to the key 'data'.
 		data.put({ message: 'Hello world!' });
 
