@@ -1,5 +1,5 @@
 # Gun starter app
-*Gun application boilerplate*
+*[Gun](https://github.com/amark/gun) application boilerplate*
 
 This boilerplate is a good starting point for gun applications, or just for understanding how all the pieces fit together.
 
