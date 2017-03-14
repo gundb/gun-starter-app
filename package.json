@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/gundb/gun-starter-app#readme",
   "dependencies": {
-    "gun": "^0.3.999"
+    "gun": "^0.6.5"
   }
 }
