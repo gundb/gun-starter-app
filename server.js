@@ -17,7 +17,6 @@ server.on('request', function (req, res) {
 });
 
 var gun = Gun({
-	file: 'data.json', // Saves all data to `data.json`.
 	web: server // Handles real-time requests and updates.
 });
 
