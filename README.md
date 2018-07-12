@@ -3,6 +3,8 @@
 
 This boilerplate is a good starting point for gun applications, or just for understanding how all the pieces fit together.
 
+> Important: Make sure you update the gun version to latest, as the package.json on this app becomes stale!
+
 ## Cloning
 ```sh
 # Download the code
